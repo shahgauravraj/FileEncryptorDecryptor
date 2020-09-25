@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="adminancpn" fx:id="adminancpn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="400.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.adminController">
+   <children>
+      <Label id="adminLabel" fx:id="adminLabel" layoutX="14.0" layoutY="24.0" style="-fx-background-color: #262626;" text="ADMIN" textFill="#1fa9ff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="adminPssLabel" fx:id="adminPssLabel" layoutX="14.0" layoutY="55.0" style="-fx-background-color: #262626;" text="PASSWORD" textFill="#1fa9ff" />
+      <PasswordField id="adminPssFld" fx:id="adminPssFld" layoutX="84.0" layoutY="51.0" prefHeight="25.0" prefWidth="302.0" promptText="ENTER PASSWORD" style="-fx-background-color: #262626;-fx-text-inner-color: #ffffff" />
+      <Button id="adminFinishbtn" fx:id="adminFinishbtn" layoutX="333.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: #333333;" text="FINISH" textFill="#1fa9ff" />
+      <Label id="adminMsg" fx:id="adminMsg" alignment="BOTTOM_CENTER" layoutX="149.0" layoutY="92.0" textFill="#f70d0d"  />
+   </children>
+</AnchorPane>

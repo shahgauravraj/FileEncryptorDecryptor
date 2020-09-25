@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="newdetailsancpn" accessibleText="detailsancpn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="416.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.detailsController">
+   <children>
+      <TextField id="detailsNameTextField" fx:id="detailsNameTextField" layoutX="75.0" layoutY="46.0" prefHeight="26.0" prefWidth="327.0" promptText="ENTER NAME" style="-fx-background-color: #262626; -fx-text-inner-color: #ffffff;" AnchorPane.topAnchor="46.0" />
+      <Label id="detailsTopLabel" layoutX="14.0" layoutY="14.0" text="USER DETAILS" textFill="#1fa9ff">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <DatePicker id="detailsDOB" fx:id="detailsDOB" layoutX="75.0" layoutY="101.0" prefHeight="26.0" prefWidth="327.0" promptText="DOB" style="-fx-background-color: #262626;-fx-control-inner-background: #404040;-fx-text-inner-color: #ffffff" AnchorPane.topAnchor="101.0" />
+      <RadioButton id="detailsMale" fx:id="detailsMale" layoutX="16.0" layoutY="141.0" mnemonicParsing="false" style="-fx-background-color: #262626;" text="MALE" textFill="#1fa9ff" />
+      <RadioButton id="detailsFemale" fx:id="detailsFemale" layoutX="16.0" layoutY="177.0" mnemonicParsing="false" text="FEMALE" textFill="#1fa9ff" />
+      <Button id="detailsFinishBtn" fx:id="detailsFinishBtn" blendMode="SRC_ATOP" layoutX="344.0" layoutY="257.0" mnemonicParsing="false" style="-fx-background-color: #333333;" text="FINISH" textFill="#1fa9ff" />
+      <Label id="detailsName" layoutX="14.0" layoutY="53.0" text="NAME" textFill="#1fa9ff" />
+      <Label id="detailsDOB" layoutX="15.0" layoutY="105.0" text="DOB" textFill="#1fa9ff" />
+      <PasswordField id="detailsPassFld" fx:id="detailsPassFld" layoutX="96.0" layoutY="213.0" prefHeight="26.0" prefWidth="306.0" promptText="PASSWORD" style="-fx-background-color: #262626;-fx-text-inner-color: #ffffff" />
+      <Label id="detailsPssLabel" fx:id="detailsPssLabel" layoutX="14.0" layoutY="217.0" text="PASSWORD" textFill="#1fa9ff" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="600.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.jfx2Controller">
+   <children>
+      <Button id="addFilesBtn" fx:id="addFilesBtn" layoutX="11.0" layoutY="54.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="210.0" style="-fx-background-color: #333333;" text="ADD FILES" textFill="#1fa9ff" />
+      <Button id="showFilesBtn" fx:id="showFilesBtn" layoutX="11.0" layoutY="97.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="210.0" style="-fx-background-color: #333333;" text="SHOW FILES" textFill="#1fa9ff" AnchorPane.topAnchor="97.0" />
+      <ListView id="selectFilesList" fx:id="selectFilesList" layoutX="233.0" layoutY="52.0" prefHeight="265.0" prefWidth="359.0" style="-fx-background-color: #333333;" />
+      <Label id="selectedFilesLabel" fx:id="selectedFilesLabel" layoutX="373.0" layoutY="23.0" style="-fx-background-color: #262626;" text="ADDED FILES" textFill="#1fa9ff" />
+      <Button id="openFilesBtn" fx:id="openFilesBtn" layoutX="11.0" layoutY="138.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="210.0" style="-fx-background-color: #333333;" text="OPEN FILE" textFill="#1fa9ff" />
+      <Button id="encryptBtn" fx:id="encryptBtn" layoutX="11.0" layoutY="179.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="210.0" style="-fx-background-color: #333333;" text="ENCRYPT FILE" textFill="#1fa9ff" />
+      <Button id="decryptBtn" fx:id="decryptBtn" layoutX="11.0" layoutY="221.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="210.0" style="-fx-background-color: #333333;" text="DECRYPT FILE" textFill="#1fa9ff" />
+   </children>
+</AnchorPane>
