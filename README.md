@@ -1,6 +1,6 @@
 # File Encryptor Decryptor
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/shahgauravraj/FileEncryptorDecryptor/master/images/Security.png)
 
 ### Abstract
 
