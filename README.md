@@ -10,8 +10,8 @@ To make this program efficient and easy for users to interact with, we have desi
 
 ### Some Useful Resources
 
-The books and materials to be referred during the pre-development of this project include:
-- Herbert Schildt, “Java – The Complete Reference” –, 9th Edition, 2014, Oracle Press.
+The books and other online materials referred during the development of this project include:
+- “Java – The Complete Reference”, Herbert Schildt, 9th Edition, 2014, Oracle Press
 - [JavaFX related documentation](https://docs.oracle.com/javafx/2/)
 - [JavaFX related Lessons and Tutorials](https://www.youtube.com/)
 - [Java programming articles and videos Lessons and Tutorials](https://www.geeksforgeeks.org/)
